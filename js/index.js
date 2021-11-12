@@ -33,7 +33,7 @@ form.addEventListener("submit", function (e){
 
    
     var samalyot = Math.round(((((enterNum.value) / 800) - (Math.floor((enterNum.value) / 800))).toFixed(2)) * 60)
-    natijaS.textContent = Math.floor((enterNum.value) / 70) + ' soat'
+    natijaS.textContent = Math.floor((enterNum.value) / 800) + ' soat'
     natijaS1.textContent = samalyot + ' daqiqa';
 
    
